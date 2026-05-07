@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Ornate White Marble and Gold King Chess Piece</title>
+  <desc id="desc">A scalable 2D vector SVG of a white marble king chess piece with gold trim, carved ornamental details, marble veining, and a transparent background.</desc>
+  <defs>
+    <linearGradient id="whiteMarble" x1="210" y1="110" x2="810" y2="910" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#f2f2ef"/>
+      <stop offset="0.5" stop-color="#d8d8d4"/>
+      <stop offset="0.74" stop-color="#f8f8f5"/>
+      <stop offset="1" stop-color="#bfc0bd"/>
+    </linearGradient>
+    <linearGradient id="marbleShade" x1="250" y1="160" x2="750" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#ecece8" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#9fa19f" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="180" y1="100" x2="835" y2="890" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff2a7"/>
+      <stop offset="0.18" stop-color="#d7a83d"/>
+      <stop offset="0.38" stop-color="#ffdf73"/>
+      <stop offset="0.62" stop-color="#9a681b"/>
+      <stop offset="0.82" stop-color="#f5c95a"/>
+      <stop offset="1" stop-color="#6f4710"/>
+    </linearGradient>
+    <linearGradient id="darkGold" x1="230" y1="240" x2="790" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7b4b0f"/>
+      <stop offset="0.45" stop-color="#c89127"/>
+      <stop offset="1" stop-color="#4d2f09"/>
+    </linearGradient>
+    <radialGradient id="pearl" cx="44%" cy="22%" r="80%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#e7e7e3" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#9c9e9d" stop-opacity="0.96"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#000000" flood-opacity="0.26"/>
+    </filter>
+    <style>
+      .outline{stroke:#3f3b33;stroke-width:6;stroke-linejoin:round;stroke-linecap:round}
+      .goldStroke{stroke:url(#gold);stroke-width:13;stroke-linejoin:round;stroke-linecap:round;fill:none}
+      .fineGold{stroke:url(#gold);stroke-width:6;stroke-linejoin:round;stroke-linecap:round;fill:none}
+      .engrave{stroke:#7a7a76;stroke-opacity:.48;stroke-width:4;stroke-linecap:round;fill:none}
+      .vein{stroke:#777a78;stroke-opacity:.34;stroke-width:3;stroke-linecap:round;fill:none}
+      .shine{stroke:#ffffff;stroke-opacity:.72;stroke-width:5;stroke-linecap:round;fill:none}
+    </style>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- King's cross -->
+    <path class="outline" fill="url(#gold)" d="M484 72h56v74h70v52h-70v87h-56v-87h-70v-52h70z"/>
+    <path fill="#fff4af" opacity="0.55" d="M502 87h17v76h74v15h-74v86h-17v-86h-72v-15h72z"/>
+
+    <!-- Crown neck and upper collar -->
+    <path class="outline" fill="url(#whiteMarble)" d="M410 285c14-36 48-61 102-61s88 25 102 61c11 29-5 64-35 82-21 13-48 20-67 20s-46-7-67-20c-30-18-46-53-35-82z"/>
+    <path class="goldStroke" d="M424 319c27 30 69 43 88 43s61-13 88-43"/>
+    <path class="fineGold" d="M461 251c16 20 34 31 51 31s35-11 51-31"/>
+
+    <!-- Main king body silhouette -->
+    <path class="outline" fill="url(#whiteMarble)" d="M512 346
+      C452 346 419 383 422 427
+      C425 470 454 494 444 543
+      C438 573 409 612 377 657
+      C344 703 333 744 355 789
+      C380 842 429 867 512 867
+      C595 867 644 842 669 789
+      C691 744 680 703 647 657
+      C615 612 586 573 580 543
+      C570 494 599 470 602 427
+      C605 383 572 346 512 346z"/>
+
+    <!-- Body internal shaded panels -->
+    <path fill="url(#marbleShade)" opacity="0.62" d="M512 377c-42 0-64 23-65 54-1 38 27 68 18 119-7 41-42 83-69 126-32 50-36 92-13 126 25 37 69 49 129 49s104-12 129-49c23-34 19-76-13-126-27-43-62-85-69-126-9-51 19-81 18-119-1-31-23-54-65-54z"/>
+    <path fill="#ffffff" opacity="0.42" d="M463 392c-22 17-24 50-12 78 10 23 19 49 11 90-7 38-34 79-59 116-20 31-29 64-18 91 16 40 54 60 93 65-34-54-43-112-31-181 11-64 48-116 48-185 0-34-10-59-32-74z"/>
+
+    <!-- Gold collars and bands -->
+    <path class="outline" fill="url(#gold)" d="M387 394c31-28 79-43 125-43s94 15 125 43c-5 21-21 36-38 45-27-19-57-28-87-28s-60 9-87 28c-17-9-33-24-38-45z"/>
+    <path fill="#fff0a6" opacity=".55" d="M426 390c25-14 55-21 86-21s61 7 86 21c-25 11-55 16-86 16s-61-5-86-16z"/>
+
+    <path class="outline" fill="url(#gold)" d="M371 611c42 24 89 36 141 36s99-12 141-36c19 22 28 43 25 64-47 29-103 44-166 44s-119-15-166-44c-3-21 6-42 25-64z"/>
+    <path fill="#ffe98b" opacity=".55" d="M392 638c39 17 79 26 120 26s81-9 120-26c8 8 13 17 15 28-43 21-88 31-135 31s-92-10-135-31c2-11 7-20 15-28z"/>
+
+    <!-- Base -->
+    <path class="outline" fill="url(#whiteMarble)" d="M293 806c58 32 127 48 219 48s161-16 219-48c34 26 52 57 52 94 0 19-15 35-34 35H275c-19 0-34-16-34-35 0-37 18-68 52-94z"/>
+    <path class="outline" fill="url(#gold)" d="M266 859c68 24 149 36 246 36s178-12 246-36c16 16 25 35 25 57 0 12-10 22-22 22H263c-12 0-22-10-22-22 0-22 9-41 25-57z"/>
+    <path fill="#fff6ba" opacity="0.46" d="M303 876c58 14 128 21 209 21s151-7 209-21c11 11 17 22 18 34H285c1-12 7-23 18-34z"/>
+
+    <!-- Ornamental central engraving -->
+    <path class="fineGold" d="M512 456c-38 30-55 70-49 117 5 37 26 63 49 86 23-23 44-49 49-86 6-47-11-87-49-117z"/>
+    <path class="engrave" d="M512 482c-19 24-26 49-21 76 3 17 11 34 21 48 10-14 18-31 21-48 5-27-2-52-21-76z"/>
+    <path class="fineGold" d="M445 515c-27 17-45 41-53 72M579 515c27 17 45 41 53 72"/>
+    <path class="engrave" d="M426 684c32 15 61 22 86 22s54-7 86-22"/>
+    <path class="engrave" d="M393 756c79 34 159 34 238 0"/>
+
+    <!-- Decorative gems/medallions -->
+    <circle class="outline" cx="512" cy="432" r="20" fill="url(#gold)"/>
+    <circle cx="512" cy="432" r="10" fill="#fff5bd" opacity=".78"/>
+    <circle class="outline" cx="512" cy="733" r="24" fill="url(#gold)"/>
+    <circle cx="512" cy="733" r="12" fill="#fff5bd" opacity=".78"/>
+
+    <!-- Marble veins -->
+    <path class="vein" d="M438 292c38 14 64 13 93-5 23-14 45-14 63 5"/>
+    <path class="vein" d="M452 424c37 20 70 19 103 3 26-13 51-8 73 13"/>
+    <path class="vein" d="M395 685c44 20 80 19 118 1 43-20 78-17 115 10"/>
+    <path class="vein" d="M350 842c63 20 113 22 164 4 54-18 105-11 158 13"/>
+    <path class="vein" d="M477 526c-25 26-30 61-13 102"/>
+    <path class="vein" d="M556 494c26 34 31 70 17 108"/>
+    <path class="vein" d="M423 792c61 19 119 18 178-3"/>
+
+    <!-- Highlights -->
+    <path class="shine" d="M454 276c22-19 55-28 86-20"/>
+    <path class="shine" d="M437 383c31-18 76-25 119-18"/>
+    <path class="shine" d="M392 648c25 16 59 25 96 27"/>
+    <path class="shine" d="M331 832c43 20 89 31 139 32"/>
+
+    <!-- Gold edge strokes to sharpen silhouette -->
+    <path class="fineGold" d="M423 424c4 46 31 71 21 119-6 30-35 69-67 114"/>
+    <path class="fineGold" d="M601 424c-4 46-31 71-21 119 6 30 35 69 67 114"/>
+    <path class="fineGold" d="M290 808c59 32 130 49 222 49s163-17 222-49"/>
+  </g>
+</svg>

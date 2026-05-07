@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Ornate Black Marble and Gold King Chess Piece</title>
+  <desc id="desc">A centered luxury 2D vector SVG of a black marble king chess piece with gold trim, ornate engravings, veining, and a traditional cross crown silhouette on a transparent background.</desc>
+  <defs>
+    <linearGradient id="blackMarble" x1="280" y1="40" x2="750" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44464b"/>
+      <stop offset="0.18" stop-color="#17191d"/>
+      <stop offset="0.42" stop-color="#07080b"/>
+      <stop offset="0.64" stop-color="#24272d"/>
+      <stop offset="0.82" stop-color="#0b0c10"/>
+      <stop offset="1" stop-color="#36383e"/>
+    </linearGradient>
+    <linearGradient id="marbleHighlight" x1="310" y1="60" x2="560" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.35" stop-color="#d6d8de" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="250" y1="0" x2="780" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1a8"/>
+      <stop offset="0.18" stop-color="#d8a838"/>
+      <stop offset="0.42" stop-color="#8f5e12"/>
+      <stop offset="0.66" stop-color="#f2cd63"/>
+      <stop offset="0.86" stop-color="#b77a1c"/>
+      <stop offset="1" stop-color="#fff4bb"/>
+    </linearGradient>
+    <linearGradient id="goldBright" x1="230" y1="180" x2="820" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff9d9"/>
+      <stop offset="0.25" stop-color="#f6d36b"/>
+      <stop offset="0.5" stop-color="#b87919"/>
+      <stop offset="0.75" stop-color="#ffeaa0"/>
+      <stop offset="1" stop-color="#a86e16"/>
+    </linearGradient>
+    <radialGradient id="softGlow" cx="50%" cy="36%" r="58%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+    <style>
+      .goldStroke{stroke:url(#gold);stroke-width:16;stroke-linejoin:round;stroke-linecap:round;fill:none}
+      .thinGold{stroke:url(#goldBright);stroke-width:7;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .engrave{stroke:#c9cbd1;stroke-opacity:.34;stroke-width:4;stroke-linecap:round;fill:none}
+      .darkEngrave{stroke:#050608;stroke-opacity:.55;stroke-width:5;stroke-linecap:round;fill:none}
+      .vein{stroke:#e6e7eb;stroke-opacity:.24;stroke-width:3;stroke-linecap:round;fill:none}
+      .vein2{stroke:#9da2ac;stroke-opacity:.20;stroke-width:2;stroke-linecap:round;fill:none}
+      .spark{fill:#fff6c8;opacity:.8}
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- Main king silhouette -->
+    <path d="M512 78
+      C493 78 478 93 478 112
+      L478 148 L438 148 C420 148 406 162 406 180 C406 198 420 212 438 212 L478 212
+      L478 258
+      C423 268 384 306 381 354
+      C378 398 406 428 445 443
+      C395 480 374 540 384 603
+      C391 648 419 690 452 720
+      C395 735 351 770 337 817
+      L305 817 C282 817 263 836 263 859
+      C263 883 282 902 305 902
+      L276 946 C268 959 277 977 293 977
+      L731 977 C747 977 756 959 748 946
+      L719 902 L719 902
+      C742 902 761 883 761 859
+      C761 836 742 817 719 817
+      L687 817
+      C673 770 629 735 572 720
+      C605 690 633 648 640 603
+      C650 540 629 480 579 443
+      C618 428 646 398 643 354
+      C640 306 601 268 546 258
+      L546 212 L586 212 C604 212 618 198 618 180 C618 162 604 148 586 148 L546 148
+      L546 112 C546 93 531 78 512 78 Z"
+      fill="url(#blackMarble)" stroke="url(#gold)" stroke-width="12" stroke-linejoin="round"/>
+
+    <!-- Large internal highlight -->
+    <path d="M495 96 C465 184 466 314 500 430 C530 531 519 651 480 742 C463 783 435 833 392 888 C449 872 506 877 558 901 C524 801 543 708 574 642 C608 568 597 489 548 437 C604 407 610 328 545 289 L528 111 C526 99 513 91 495 96 Z"
+          fill="url(#marbleHighlight)" opacity="0.85"/>
+    <ellipse cx="512" cy="858" rx="210" ry="44" fill="url(#softGlow)" opacity="0.55"/>
+
+    <!-- Gold trim bands -->
+    <path class="goldStroke" d="M382 354 C410 383 460 397 512 397 C564 397 614 383 642 354"/>
+    <path class="goldStroke" d="M397 606 C456 631 568 631 627 606"/>
+    <path class="goldStroke" d="M349 817 C433 842 591 842 675 817"/>
+    <path class="goldStroke" d="M286 902 C405 929 619 929 738 902"/>
+
+    <!-- Crown/cross gold edges -->
+    <path class="thinGold" d="M512 91 L512 257"/>
+    <path class="thinGold" d="M425 180 L599 180"/>
+    <path class="thinGold" d="M478 148 L546 148"/>
+    <path class="thinGold" d="M478 212 L546 212"/>
+
+    <!-- Ornate medallion and carvings -->
+    <ellipse cx="512" cy="520" rx="82" ry="106" fill="none" stroke="url(#goldBright)" stroke-width="8"/>
+    <path class="thinGold" d="M512 426 C486 468 486 574 512 616 C538 574 538 468 512 426 Z"/>
+    <path class="thinGold" d="M453 520 C490 494 534 494 571 520 C534 546 490 546 453 520 Z"/>
+    <circle cx="512" cy="520" r="15" fill="url(#goldBright)"/>
+
+    <path class="engrave" d="M432 455 C402 490 397 548 421 590"/>
+    <path class="engrave" d="M592 455 C622 490 627 548 603 590"/>
+    <path class="engrave" d="M431 681 C477 711 547 711 593 681"/>
+    <path class="darkEngrave" d="M460 759 C492 776 532 776 564 759"/>
+    <path class="thinGold" d="M410 683 C448 725 576 725 614 683"/>
+
+    <!-- Decorative gold flourishes -->
+    <path class="thinGold" d="M376 807 C416 768 458 767 489 799"/>
+    <path class="thinGold" d="M648 807 C608 768 566 767 535 799"/>
+    <path class="thinGold" d="M329 884 C398 865 448 869 486 896"/>
+    <path class="thinGold" d="M695 884 C626 865 576 869 538 896"/>
+    <path class="thinGold" d="M426 319 C460 286 564 286 598 319"/>
+    <path class="thinGold" d="M428 370 C474 348 550 348 596 370"/>
+
+    <!-- Marble veining, hand-drawn vector lines -->
+    <path class="vein" d="M397 318 C442 345 441 386 480 414 C518 442 506 482 548 510"/>
+    <path class="vein2" d="M549 288 C522 335 535 376 489 421"/>
+    <path class="vein" d="M438 623 C488 657 462 703 517 739 C553 762 596 785 611 832"/>
+    <path class="vein2" d="M588 461 C554 478 543 508 562 541 C578 569 558 593 531 614"/>
+    <path class="vein" d="M350 851 C403 834 455 857 498 887"/>
+    <path class="vein2" d="M669 850 C626 828 578 845 540 880"/>
+    <path class="vein" d="M489 118 C505 160 489 199 519 235"/>
+    <path class="vein2" d="M551 155 C535 187 552 216 528 250"/>
+
+    <!-- Small gold jewels / highlights -->
+    <circle cx="512" cy="356" r="9" fill="url(#goldBright)"/>
+    <circle cx="454" cy="611" r="7" fill="url(#goldBright)"/>
+    <circle cx="570" cy="611" r="7" fill="url(#goldBright)"/>
+    <circle cx="404" cy="819" r="6" fill="url(#goldBright)"/>
+    <circle cx="620" cy="819" r="6" fill="url(#goldBright)"/>
+    <path class="spark" d="M332 900 l8 15 l15 8 l-15 8 l-8 15 l-8 -15 l-15 -8 l15 -8 z"/>
+    <path class="spark" d="M690 900 l7 13 l13 7 l-13 7 l-7 13 l-7 -13 l-13 -7 l13 -7 z"/>
+    <path class="spark" d="M592 180 l5 9 l9 5 l-9 5 l-5 9 l-5 -9 l-9 -5 l9 -5 z"/>
+
+    <!-- Base dark contour for depth -->
+    <path d="M305 902 C400 936 624 936 719 902" fill="none" stroke="#000000" stroke-opacity="0.35" stroke-width="8" stroke-linecap="round"/>
+    <path d="M360 816 C438 853 586 853 664 816" fill="none" stroke="#000000" stroke-opacity="0.28" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

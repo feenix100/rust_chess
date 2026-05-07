@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Ornate Black Marble Gold Pawn Chess Piece</title>
+  <desc id="desc">A centered 2D vector SVG pawn chess piece carved from polished black marble with gray veining and refined metallic gold trim accents.</desc>
+  <defs>
+    <linearGradient id="blackMarble" x1="260" y1="120" x2="790" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#191919"/>
+      <stop offset="0.22" stop-color="#050505"/>
+      <stop offset="0.48" stop-color="#2a2a2a"/>
+      <stop offset="0.72" stop-color="#080808"/>
+      <stop offset="1" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="edgeMarble" x1="304" y1="160" x2="720" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#343434"/>
+      <stop offset="0.5" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#2c2c2c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="220" y1="0" x2="820" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff3a6"/>
+      <stop offset="0.18" stop-color="#d7a631"/>
+      <stop offset="0.35" stop-color="#8f5f10"/>
+      <stop offset="0.55" stop-color="#f7d56c"/>
+      <stop offset="0.75" stop-color="#b47a19"/>
+      <stop offset="1" stop-color="#fff0a0"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="300" y1="100" x2="780" y2="880" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8d5f11"/>
+      <stop offset="0.5" stop-color="#f1cc60"/>
+      <stop offset="1" stop-color="#6d4308"/>
+    </linearGradient>
+    <radialGradient id="crownGlow" cx="45%" cy="25%" r="62%">
+      <stop offset="0" stop-color="#4a4a4a"/>
+      <stop offset="0.55" stop-color="#141414"/>
+      <stop offset="1" stop-color="#010101"/>
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="pawnClip">
+      <path d="M512 82c-72 0-130 58-130 130 0 42 20 80 52 104-27 19-45 50-45 86 0 22 7 43 19 60-52 39-88 101-100 183h408c-12-82-48-144-100-183 12-17 19-38 19-60 0-36-18-67-45-86 32-24 52-62 52-104 0-72-58-130-130-130zM287 697c-32 0-58 26-58 58v19h566v-19c0-32-26-58-58-58H287zM213 823c-42 0-76 34-76 76v42h750v-42c0-42-34-76-76-76H213z"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- main pawn silhouette -->
+    <path d="M512 82c-72 0-130 58-130 130 0 42 20 80 52 104-27 19-45 50-45 86 0 22 7 43 19 60-52 39-88 101-100 183h408c-12-82-48-144-100-183 12-17 19-38 19-60 0-36-18-67-45-86 32-24 52-62 52-104 0-72-58-130-130-130zM287 697c-32 0-58 26-58 58v19h566v-19c0-32-26-58-58-58H287zM213 823c-42 0-76 34-76 76v42h750v-42c0-42-34-76-76-76H213z" fill="url(#blackMarble)"/>
+
+    <!-- internal marble veining clipped to piece -->
+    <g clip-path="url(#pawnClip)" opacity="0.72" fill="none" stroke-linecap="round">
+      <path d="M298 888c90-52 124-116 156-188 35-78 63-147 129-215 48-50 68-93 55-147" stroke="#6f6f6f" stroke-width="5" opacity="0.42"/>
+      <path d="M395 114c48 74 71 137 49 207-18 57-74 93-73 157" stroke="#9b9b9b" stroke-width="3" opacity="0.36"/>
+      <path d="M632 128c-65 74-58 139-22 198 29 48 76 91 79 164" stroke="#5f5f5f" stroke-width="4" opacity="0.5"/>
+      <path d="M214 866c123-21 185-54 231-108 36-43 71-72 133-74 69-2 136-32 178-85" stroke="#a8a8a8" stroke-width="2.5" opacity="0.35"/>
+      <path d="M366 621c61-23 97-58 120-112 19-44 44-72 89-91" stroke="#d0d0d0" stroke-width="1.8" opacity="0.32"/>
+      <path d="M721 849c-50-80-122-114-205-116-64-1-113-18-148-57" stroke="#777" stroke-width="3" opacity="0.35"/>
+      <path d="M448 238c24-28 57-42 96-43 32-1 60-13 84-37" stroke="#c9c9c9" stroke-width="2" opacity="0.28"/>
+      <path d="M332 742c42-9 78-5 109 13 31 19 68 19 111 1" stroke="#efefef" stroke-width="1.4" opacity="0.25"/>
+    </g>
+
+    <!-- side depth and highlights -->
+    <path d="M568 98c46 24 77 70 77 123 0 44-22 84-56 109 27 18 45 49 45 84 0 23-8 44-20 61 51 39 87 101 99 181h-78c-9-71-35-126-77-166-16-16-18-41-5-59 9-12 14-26 14-41 0-29-17-55-43-67-18-8-21-32-6-45 29-24 46-58 46-95 0-34-13-63-36-85z" fill="#ffffff" opacity="0.05"/>
+    <path d="M445 103c-39 24-64 67-64 117 0 44 20 83 53 107-26 20-43 51-43 86 0 23 7 44 19 61-47 37-80 95-94 171h55c10-63 36-113 77-151 16-15 19-40 7-58-9-14-14-29-14-45 0-29 16-54 41-67 17-9 19-33 3-46-28-23-44-56-44-92 0-30 9-58 27-83z" fill="#000" opacity="0.28"/>
+
+    <!-- gold trims following pawn construction -->
+    <circle cx="512" cy="212" r="137" fill="none" stroke="url(#gold)" stroke-width="18"/>
+    <circle cx="512" cy="212" r="106" fill="url(#crownGlow)" opacity="0.72"/>
+    <circle cx="512" cy="212" r="88" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.14"/>
+    <circle cx="512" cy="212" r="120" fill="none" stroke="url(#goldDark)" stroke-width="5" opacity="0.85"/>
+
+    <path d="M407 333c58 38 152 38 210 0" fill="none" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M398 455c65 44 163 44 228 0" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M308 645h408" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M232 774h560" fill="none" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M146 941h732" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+
+    <!-- ornamental carvings on body -->
+    <g fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M427 575c30-54 140-54 170 0" stroke-width="7" opacity="0.9"/>
+      <path d="M443 602c20-34 118-34 138 0" stroke-width="4" opacity="0.78"/>
+      <path d="M512 506v103" stroke-width="5" opacity="0.9"/>
+      <path d="M462 526c8 18 24 31 50 39 26-8 42-21 50-39" stroke-width="4" opacity="0.75"/>
+      <path d="M378 716c34 38 77 54 134 54s100-16 134-54" stroke-width="7" opacity="0.95"/>
+      <path d="M341 874c72 31 270 31 342 0" stroke-width="7" opacity="0.9"/>
+      <path d="M277 900c101 44 369 44 470 0" stroke-width="4" opacity="0.65"/>
+    </g>
+
+    <!-- engraved filigree dark grooves -->
+    <g fill="none" stroke="#000" stroke-linecap="round" opacity="0.45">
+      <path d="M443 533c-18 20-33 43-44 70" stroke-width="5"/>
+      <path d="M581 533c18 20 33 43 44 70" stroke-width="5"/>
+      <path d="M322 728c88 16 292 16 380 0" stroke-width="5"/>
+      <path d="M248 848c127 32 401 32 528 0" stroke-width="5"/>
+    </g>
+
+    <!-- gold jewelry dots -->
+    <g fill="url(#gold)">
+      <circle cx="512" cy="100" r="9"/>
+      <circle cx="431" cy="157" r="7"/>
+      <circle cx="593" cy="157" r="7"/>
+      <circle cx="394" cy="360" r="8"/>
+      <circle cx="630" cy="360" r="8"/>
+      <circle cx="408" cy="477" r="7"/>
+      <circle cx="616" cy="477" r="7"/>
+      <circle cx="326" cy="648" r="8"/>
+      <circle cx="698" cy="648" r="8"/>
+      <circle cx="267" cy="774" r="7"/>
+      <circle cx="757" cy="774" r="7"/>
+      <circle cx="199" cy="941" r="7"/>
+      <circle cx="825" cy="941" r="7"/>
+    </g>
+
+    <!-- polished marble highlights -->
+    <g fill="#ffffff" opacity="0.12">
+      <path d="M454 132c-30 20-49 53-49 90 0 17 4 33 11 47 11-51 39-91 85-121 23-15 8-34-47-16z"/>
+      <path d="M334 713c-23 3-42 22-45 46h194c-48-25-98-40-149-46z"/>
+      <path d="M191 852c-29 9-50 36-50 69h272c-72-37-147-60-222-69z"/>
+    </g>
+
+    <!-- crisp outer gold hairline -->
+    <path d="M512 82c-72 0-130 58-130 130 0 42 20 80 52 104-27 19-45 50-45 86 0 22 7 43 19 60-52 39-88 101-100 183h408c-12-82-48-144-100-183 12-17 19-38 19-60 0-36-18-67-45-86 32-24 52-62 52-104 0-72-58-130-130-130zM287 697c-32 0-58 26-58 58v19h566v-19c0-32-26-58-58-58H287zM213 823c-42 0-76 34-76 76v42h750v-42c0-42-34-76-76-76H213z" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+</svg>

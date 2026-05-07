@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">Ornate White Marble Gold Bishop Chess Piece</title>
+  <desc id="desc">A luxury 2D vector SVG bishop chess piece carved from white marble with subtle gray veining, gold trim, engraved ornaments, and transparent background.</desc>
+  <defs>
+    <linearGradient id="whiteMarble" x1="110" y1="40" x2="405" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.18" stop-color="#f8f8f4"/>
+      <stop offset="0.42" stop-color="#deded8"/>
+      <stop offset="0.65" stop-color="#f5f4ef"/>
+      <stop offset="1" stop-color="#c8c8c1"/>
+    </linearGradient>
+    <linearGradient id="marbleShadow" x1="170" y1="70" x2="350" y2="485" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#d8d8d2" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9f9f99" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="115" y1="60" x2="390" y2="465" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1a8"/>
+      <stop offset="0.22" stop-color="#d8a931"/>
+      <stop offset="0.48" stop-color="#fff7c8"/>
+      <stop offset="0.72" stop-color="#b37a16"/>
+      <stop offset="1" stop-color="#f2cd67"/>
+    </linearGradient>
+    <linearGradient id="darkGold" x1="160" y1="90" x2="350" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#92620e"/>
+      <stop offset="0.5" stop-color="#f6d979"/>
+      <stop offset="1" stop-color="#8b5d0c"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="bishopClip">
+      <path d="M256 44 C214 75 190 118 190 168 C190 202 203 230 219 253 C194 278 177 318 177 360 L335 360 C335 318 318 278 293 253 C309 230 322 202 322 168 C322 118 298 75 256 44 Z"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- Base plinth -->
+    <path d="M105 453 C122 425 389 425 407 453 C414 464 406 480 386 484 C330 496 182 496 126 484 C106 480 98 464 105 453 Z" fill="url(#gold)"/>
+    <path d="M126 430 C139 404 373 404 386 430 C397 451 370 463 256 463 C142 463 115 451 126 430 Z" fill="url(#whiteMarble)" stroke="url(#gold)" stroke-width="8"/>
+    <path d="M151 413 C168 397 344 397 361 413 C371 422 360 433 256 433 C152 433 141 422 151 413 Z" fill="url(#gold)" opacity="0.95"/>
+    <path d="M174 391 C188 374 324 374 338 391 C349 405 334 416 256 416 C178 416 163 405 174 391 Z" fill="url(#whiteMarble)" stroke="url(#darkGold)" stroke-width="5"/>
+
+    <!-- Stem and collar -->
+    <path d="M207 344 C214 319 298 319 305 344 L328 392 C306 405 206 405 184 392 Z" fill="url(#whiteMarble)" stroke="url(#gold)" stroke-width="7"/>
+    <path d="M178 352 C190 332 322 332 334 352 C344 369 324 381 256 381 C188 381 168 369 178 352 Z" fill="url(#gold)"/>
+    <path d="M198 329 C207 312 305 312 314 329 C323 345 300 354 256 354 C212 354 189 345 198 329 Z" fill="url(#whiteMarble)" stroke="url(#gold)" stroke-width="5"/>
+
+    <!-- Bishop body -->
+    <path d="M256 44 C214 75 190 118 190 168 C190 202 203 230 219 253 C194 278 177 318 177 360 C205 374 307 374 335 360 C335 318 318 278 293 253 C309 230 322 202 322 168 C322 118 298 75 256 44 Z" fill="url(#whiteMarble)" stroke="url(#gold)" stroke-width="9" stroke-linejoin="round"/>
+
+    <!-- Side depth shading -->
+    <path d="M285 77 C309 106 320 138 316 178 C312 213 293 238 278 256 C303 284 319 319 319 352 C307 357 292 360 276 361 C286 325 275 286 254 258 C276 230 294 203 296 169 C298 131 293 99 285 77 Z" fill="url(#marbleShadow)" opacity="0.45"/>
+    <path d="M221 83 C199 115 194 153 200 186 C205 213 219 238 234 257 C214 284 200 322 199 354 C190 352 184 349 177 345 C180 310 195 278 219 253 C203 230 190 202 190 168 C190 132 201 103 221 83 Z" fill="#ffffff" opacity="0.36"/>
+
+    <!-- Bishop diagonal cut -->
+    <path d="M277 104 C292 122 296 149 285 174 C273 202 250 221 227 236 C224 216 231 191 245 170 C257 151 268 130 277 104 Z" fill="#151515" stroke="url(#gold)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M264 133 C273 144 274 160 267 177 C260 192 249 204 237 214" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Gold halo bands on head -->
+    <path d="M201 172 C222 185 290 185 311 172" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" opacity="0.95"/>
+    <path d="M206 209 C228 223 284 223 306 209" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" opacity="0.86"/>
+    <path d="M200 285 C228 300 284 300 312 285" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Ornamental engravings -->
+    <g clip-path="url(#bishopClip)" fill="none" stroke="#7e7e79" stroke-opacity="0.42" stroke-width="2.2" stroke-linecap="round">
+      <path d="M211 118 C236 103 276 103 301 118"/>
+      <path d="M219 134 C238 124 274 124 293 134"/>
+      <path d="M216 316 C238 302 274 302 296 316"/>
+      <path d="M229 335 C244 326 268 326 283 335"/>
+      <path d="M235 275 C247 266 265 266 277 275"/>
+      <path d="M225 306 C231 293 241 288 256 287 C271 288 281 293 287 306"/>
+    </g>
+
+    <!-- Marble veining -->
+    <g clip-path="url(#bishopClip)" fill="none" stroke-linecap="round">
+      <path d="M213 96 C235 119 222 143 246 158 C265 170 250 195 268 212 C287 229 283 253 302 269" stroke="#777772" stroke-opacity="0.32" stroke-width="2.3"/>
+      <path d="M291 76 C269 101 281 120 259 141 C245 155 244 176 226 190" stroke="#a8a8a1" stroke-opacity="0.35" stroke-width="1.7"/>
+      <path d="M205 248 C229 259 236 279 220 302 C210 317 219 334 235 350" stroke="#8b8b85" stroke-opacity="0.28" stroke-width="2"/>
+      <path d="M300 284 C281 296 286 319 267 333 C251 345 255 354 244 365" stroke="#686862" stroke-opacity="0.25" stroke-width="1.8"/>
+      <path d="M238 62 C253 79 249 95 269 110" stroke="#b5b5ae" stroke-opacity="0.4" stroke-width="1.5"/>
+    </g>
+
+    <!-- Gold carved central emblem -->
+    <path d="M256 258 C240 275 238 294 256 312 C274 294 272 275 256 258 Z" fill="none" stroke="url(#gold)" stroke-width="4"/>
+    <circle cx="256" cy="288" r="6" fill="url(#gold)"/>
+    <path d="M229 328 C241 340 271 340 283 328" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Highlights -->
+    <path d="M228 79 C208 111 202 143 207 175 C211 201 220 220 232 238" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.45"/>
+    <path d="M215 377 C242 384 286 384 314 377" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.34"/>
+    <path d="M143 447 C180 456 331 456 370 447" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.34"/>
+
+    <!-- Tiny gold jewels/trim dots -->
+    <g fill="url(#gold)" stroke="#8d5f0e" stroke-width="1">
+      <circle cx="221" cy="285" r="4"/>
+      <circle cx="291" cy="285" r="4"/>
+      <circle cx="219" cy="209" r="3"/>
+      <circle cx="293" cy="209" r="3"/>
+      <circle cx="206" cy="352" r="4"/>
+      <circle cx="306" cy="352" r="4"/>
+    </g>
+  </g>
+</svg>

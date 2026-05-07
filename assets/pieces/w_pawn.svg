@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-labelledby="title desc">
+  <title id="title">Ornate marble and gold chess pawn</title>
+  <desc id="desc">A 2D vector chess pawn carved from white marble with gray veining, black outline, and ornate gold trim.</desc>
+  <defs>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.32" stop-color="#f1eee7"/>
+      <stop offset="0.62" stop-color="#d7d3cc"/>
+      <stop offset="1" stop-color="#fffdf7"/>
+    </linearGradient>
+    <radialGradient id="marbleSphere" cx="32%" cy="22%" r="72%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#f8f5ed"/>
+      <stop offset="0.75" stop-color="#ccc7bf"/>
+      <stop offset="1" stop-color="#fefbf4"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a4a00"/>
+      <stop offset="0.18" stop-color="#ffd86a"/>
+      <stop offset="0.45" stop-color="#b67800"/>
+      <stop offset="0.68" stop-color="#fff1a8"/>
+      <stop offset="1" stop-color="#8b5600"/>
+    </linearGradient>
+    <linearGradient id="darkGold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3f2500"/>
+      <stop offset="0.45" stop-color="#d99a18"/>
+      <stop offset="1" stop-color="#3f2500"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+    <filter id="innerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <pattern id="veins" width="260" height="260" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+      <path d="M-20 62 C45 28 75 100 132 62 S215 42 284 92" fill="none" stroke="#5d5d5d" stroke-width="6" stroke-linecap="round" opacity="0.38"/>
+      <path d="M-12 116 C48 98 83 154 137 129 S212 108 282 148" fill="none" stroke="#343434" stroke-width="3" stroke-linecap="round" opacity="0.25"/>
+      <path d="M10 208 C80 160 110 230 178 188 S232 178 276 222" fill="none" stroke="#777" stroke-width="5" stroke-linecap="round" opacity="0.3"/>
+      <path d="M44 -20 C61 38 96 66 153 88 S205 130 226 188" fill="none" stroke="#4a4a4a" stroke-width="2.4" stroke-linecap="round" opacity="0.22"/>
+    </pattern>
+    <clipPath id="pawnClip">
+      <circle cx="400" cy="245" r="122"/>
+      <path d="M305 390 C328 407 356 415 400 415 C444 415 472 407 495 390 L533 706 C546 753 596 780 643 795 C682 808 704 832 704 862 C704 909 644 930 400 930 C156 930 96 909 96 862 C96 832 118 808 157 795 C204 780 254 753 267 706 Z"/>
+      <path d="M158 884 C162 827 211 786 281 770 L519 770 C589 786 638 827 642 884 L665 982 L135 982 Z"/>
+      <path d="M106 982 L694 982 L746 1086 C680 1128 548 1148 400 1148 C252 1148 120 1128 54 1086 Z"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- black silhouette/outline -->
+    <path d="M400 93 C482 93 549 160 549 242 C549 303 512 356 459 379 L516 694 C524 735 573 754 625 771 C680 789 724 819 724 866 C724 895 710 918 683 936 L750 1077 C759 1096 753 1117 736 1128 C665 1173 537 1197 400 1197 C263 1197 135 1173 64 1128 C47 1117 41 1096 50 1077 L117 936 C90 918 76 895 76 866 C76 819 120 789 175 771 C227 754 276 735 284 694 L341 379 C288 356 251 303 251 242 C251 160 318 93 400 93 Z" fill="#050505"/>
+
+    <!-- marble body -->
+    <g clip-path="url(#pawnClip)">
+      <rect x="0" y="0" width="800" height="1200" fill="url(#marble)"/>
+      <rect x="0" y="0" width="800" height="1200" fill="url(#veins)" opacity="0.9"/>
+      <path d="M152 1050 C245 1089 557 1090 648 1047" fill="none" stroke="#fff" stroke-width="44" opacity="0.25"/>
+      <path d="M291 476 C257 580 269 664 294 739" fill="none" stroke="#fff" stroke-width="28" opacity="0.45"/>
+      <path d="M450 400 C498 510 514 633 492 745" fill="none" stroke="#6b6b6b" stroke-width="16" opacity="0.2"/>
+    </g>
+
+    <!-- sphere -->
+    <circle cx="400" cy="245" r="122" fill="url(#marbleSphere)" stroke="#050505" stroke-width="17"/>
+    <circle cx="400" cy="245" r="122" fill="url(#veins)" opacity="0.72"/>
+    <ellipse cx="350" cy="190" rx="44" ry="34" fill="#fff" opacity="0.82"/>
+    <ellipse cx="405" cy="206" rx="58" ry="36" fill="#fff" opacity="0.25"/>
+
+    <!-- neck and body outlines -->
+    <path d="M303 388 C329 407 357 416 400 416 C443 416 471 407 497 388" fill="none" stroke="#050505" stroke-width="20" stroke-linecap="round"/>
+    <path d="M292 422 C324 436 364 443 400 443 C436 443 476 436 508 422" fill="none" stroke="#ffffff" stroke-width="26" opacity="0.65" stroke-linecap="round"/>
+    <path d="M304 392 C332 407 363 414 400 414 C437 414 468 407 496 392" fill="none" stroke="url(#gold)" stroke-width="23" stroke-linecap="round"/>
+    <path d="M286 740 C315 764 354 776 400 776 C446 776 485 764 514 740" fill="none" stroke="#050505" stroke-width="22" stroke-linecap="round"/>
+    <path d="M284 743 C316 759 356 767 400 767 C444 767 484 759 516 743" fill="none" stroke="#fff" stroke-width="20" opacity="0.62" stroke-linecap="round"/>
+
+    <!-- ornate gold collar -->
+    <path d="M225 364 H575 C603 364 623 385 623 412 V450 C623 477 601 496 574 496 H226 C199 496 177 477 177 450 V412 C177 385 197 364 225 364 Z" fill="#080808"/>
+    <path d="M216 379 C284 359 516 359 584 379 L606 421 C529 449 271 449 194 421 Z" fill="url(#gold)" stroke="#050505" stroke-width="9"/>
+    <path d="M199 421 H601 V469 H199 Z" fill="#060606"/>
+    <path d="M212 431 C295 457 505 457 588 431" fill="none" stroke="url(#gold)" stroke-width="21" stroke-linecap="round"/>
+    <path d="M233 463 C276 418 314 434 305 470 C337 421 372 422 400 469 C428 422 463 421 495 470 C486 434 524 418 567 463" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M393 426 C380 458 367 478 343 491 C377 489 394 473 400 446 C406 473 423 489 457 491 C433 478 420 458 407 426 Z" fill="url(#gold)" stroke="#3b2200" stroke-width="4"/>
+    <circle cx="231" cy="431" r="16" fill="url(#gold)" stroke="#3d2500" stroke-width="5"/>
+    <circle cx="569" cy="431" r="16" fill="url(#gold)" stroke="#3d2500" stroke-width="5"/>
+
+    <!-- bead ring -->
+    <path d="M185 784 C272 825 528 825 615 784" fill="none" stroke="#050505" stroke-width="34" stroke-linecap="round"/>
+    <path d="M191 781 C276 810 524 810 609 781" fill="none" stroke="url(#darkGold)" stroke-width="17" stroke-linecap="round"/>
+    <g fill="url(#gold)" stroke="#3d2500" stroke-width="3">
+      <circle cx="221" cy="789" r="9"/><circle cx="251" cy="798" r="9"/><circle cx="282" cy="805" r="9"/><circle cx="315" cy="810" r="9"/><circle cx="348" cy="813" r="9"/><circle cx="382" cy="815" r="9"/><circle cx="418" cy="815" r="9"/><circle cx="452" cy="813" r="9"/><circle cx="485" cy="810" r="9"/><circle cx="518" cy="805" r="9"/><circle cx="549" cy="798" r="9"/><circle cx="579" cy="789" r="9"/>
+    </g>
+
+    <!-- lower gold ornate band -->
+    <path d="M142 909 C206 945 594 945 658 909 L694 982 C595 1019 205 1019 106 982 Z" fill="#050505"/>
+    <path d="M153 923 C224 953 576 953 647 923 L668 969 C566 1002 234 1002 132 969 Z" fill="url(#gold)" stroke="#050505" stroke-width="7"/>
+    <path d="M197 945 C257 914 308 929 295 962 C335 927 371 928 400 964 C429 928 465 927 505 962 C492 929 543 914 603 945" fill="none" stroke="#2b1900" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+    <path d="M197 945 C257 914 308 929 295 962 C335 927 371 928 400 964 C429 928 465 927 505 962 C492 929 543 914 603 945" fill="none" stroke="#fff0a0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="400" cy="954" r="12" fill="#fff0a0" stroke="#563300" stroke-width="4"/>
+
+    <!-- base -->
+    <path d="M104 982 H696 L740 1074 C666 1118 531 1137 400 1137 C269 1137 134 1118 60 1074 Z" fill="url(#marble)" stroke="#050505" stroke-width="18"/>
+    <path d="M72 1065 C142 1103 269 1125 400 1125 C531 1125 658 1103 728 1065" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M93 995 C179 1029 621 1029 707 995" fill="none" stroke="#fff" stroke-width="18" opacity="0.55" stroke-linecap="round"/>
+    <path d="M122 1035 C239 1064 561 1064 678 1035" fill="none" stroke="url(#veins)" stroke-width="28" opacity="0.65"/>
+
+    <!-- final crisp outlines -->
+    <path d="M400 92 C482 92 550 160 550 244 C550 305 513 357 460 380" fill="none" stroke="#050505" stroke-width="8"/>
+    <path d="M340 380 C287 357 250 305 250 244 C250 160 318 92 400 92" fill="none" stroke="#050505" stroke-width="8"/>
+    <path d="M281 694 C272 744 226 766 176 782 C125 798 94 825 94 864 C94 908 143 929 400 929 C657 929 706 908 706 864 C706 825 675 798 624 782 C574 766 528 744 519 694" fill="none" stroke="#050505" stroke-width="8"/>
+  </g>
+</svg>

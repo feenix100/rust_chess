@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Ornate White Marble and Gold Queen Chess Piece</title>
+  <desc id="desc">A luxury 2D vector SVG queen chess piece carved from polished white marble with gray veining, ornate engravings, and metallic gold trim on a transparent background.</desc>
+  <defs>
+    <linearGradient id="whiteMarble" x1="238" y1="76" x2="790" y2="962" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.18" stop-color="#f3f1eb"/>
+      <stop offset="0.42" stop-color="#d9d7d0"/>
+      <stop offset="0.62" stop-color="#faf9f4"/>
+      <stop offset="0.82" stop-color="#c7c5bf"/>
+      <stop offset="1" stop-color="#fefdf8"/>
+    </linearGradient>
+    <linearGradient id="marbleShadow" x1="304" y1="112" x2="710" y2="935" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#ece9df" stop-opacity="0.8"/>
+      <stop offset="0.72" stop-color="#aaa79f" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="221" y1="114" x2="816" y2="931" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff2a8"/>
+      <stop offset="0.2" stop-color="#d9a72f"/>
+      <stop offset="0.42" stop-color="#8b5d11"/>
+      <stop offset="0.58" stop-color="#f6d76e"/>
+      <stop offset="0.78" stop-color="#b77b19"/>
+      <stop offset="1" stop-color="#fff0a0"/>
+    </linearGradient>
+    <linearGradient id="darkGold" x1="320" y1="140" x2="710" y2="930" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b77b19"/>
+      <stop offset="0.55" stop-color="#5f3b08"/>
+      <stop offset="1" stop-color="#d7a432"/>
+    </linearGradient>
+    <radialGradient id="pearlGlow" cx="50%" cy="28%" r="55%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.86"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="queenClip">
+      <path d="M514 70c19 0 35 16 35 35 0 12-6 23-16 29l34 94 77-120c-7-6-12-15-12-25 0-18 15-33 33-33s33 15 33 33-15 33-33 33c-3 0-6 0-9-1l-28 170 104-114c-3-5-5-11-5-18 0-18 15-33 33-33s33 15 33 33-15 33-33 33c-4 0-8-1-12-2l-76 188c31 33 50 79 50 129 0 69-38 123-82 150 14 23 24 50 29 80h37c31 0 57 25 57 57 0 22-12 41-30 51 34 10 58 38 58 72 0 42-36 76-81 76H313c-45 0-81-34-81-76 0-34 24-62 58-72-18-10-30-29-30-51 0-32 26-57 57-57h38c5-31 15-57 29-80-45-28-82-82-82-150 0-50 19-96 50-129l-76-188c-4 1-8 2-12 2-18 0-33-15-33-33s15-33 33-33 33 15 33 33c0 7-2 13-5 18l104 114-28-170c-3 1-6 1-9 1-18 0-33-15-33-33s15-33 33-33 33 15 33 33c0 10-5 19-12 25l77 120 34-94c-10-6-16-17-16-29 0-19 16-35 36-35z"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- Main queen silhouette -->
+    <path d="M514 70c19 0 35 16 35 35 0 12-6 23-16 29l34 94 77-120c-7-6-12-15-12-25 0-18 15-33 33-33s33 15 33 33-15 33-33 33c-3 0-6 0-9-1l-28 170 104-114c-3-5-5-11-5-18 0-18 15-33 33-33s33 15 33 33-15 33-33 33c-4 0-8-1-12-2l-76 188c31 33 50 79 50 129 0 69-38 123-82 150 14 23 24 50 29 80h37c31 0 57 25 57 57 0 22-12 41-30 51 34 10 58 38 58 72 0 42-36 76-81 76H313c-45 0-81-34-81-76 0-34 24-62 58-72-18-10-30-29-30-51 0-32 26-57 57-57h38c5-31 15-57 29-80-45-28-82-82-82-150 0-50 19-96 50-129l-76-188c-4 1-8 2-12 2-18 0-33-15-33-33s15-33 33-33 33 15 33 33c0 7-2 13-5 18l104 114-28-170c-3 1-6 1-9 1-18 0-33-15-33-33s15-33 33-33 33 15 33 33c0 10-5 19-12 25l77 120 34-94c-10-6-16-17-16-29 0-19 16-35 36-35z" fill="url(#whiteMarble)" stroke="url(#darkGold)" stroke-width="13" stroke-linejoin="round"/>
+
+    <!-- Marble depth overlay -->
+    <path d="M514 92c8 0 14 6 14 14 0 7-5 13-12 14l-8 3 55 151 96-151-45 267 161-176-98 243c17 27 26 58 26 91 0 63-38 112-81 134l-15 8 12 15c20 25 31 61 35 102h51c19 0 34 15 34 34s-15 34-34 34h-40l78 22c18 5 31 22 31 41 0 24-21 43-47 43H313c-26 0-47-19-47-43 0-19 13-36 31-41l78-22h-40c-19 0-34-15-34-34s15-34 34-34h51c4-41 15-77 35-102l12-15-15-8c-43-22-81-71-81-134 0-33 9-64 26-91l-98-243 161 176-45-267 96 151 55-151-8-3c-7-1-12-7-12-14 0-8 6-14 14-14z" fill="url(#marbleShadow)" opacity="0.62"/>
+
+    <!-- Gold crown trim lines -->
+    <path d="M306 350c59 35 132 54 208 54s149-19 208-54" fill="none" stroke="url(#gold)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M333 409c51 26 113 40 181 40s130-14 181-40" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round" opacity="0.92"/>
+    <path d="M382 668c38 21 84 32 132 32s94-11 132-32" fill="none" stroke="url(#gold)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M342 759h344" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M292 853h444" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M280 922h468" fill="none" stroke="url(#gold)" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- Gold finials -->
+    <circle cx="514" cy="105" r="21" fill="url(#gold)" stroke="#6f470c" stroke-width="4"/>
+    <circle cx="359" cy="83" r="20" fill="url(#gold)" stroke="#6f470c" stroke-width="4"/>
+    <circle cx="665" cy="83" r="20" fill="url(#gold)" stroke="#6f470c" stroke-width="4"/>
+    <circle cx="264" cy="153" r="19" fill="url(#gold)" stroke="#6f470c" stroke-width="4"/>
+    <circle cx="760" cy="153" r="19" fill="url(#gold)" stroke="#6f470c" stroke-width="4"/>
+
+    <!-- Crown jewel ornaments -->
+    <path d="M514 478c28 0 55 16 72 43-17 27-44 43-72 43s-55-16-72-43c17-27 44-43 72-43z" fill="none" stroke="url(#gold)" stroke-width="11"/>
+    <circle cx="514" cy="521" r="17" fill="url(#gold)" opacity="0.96"/>
+    <path d="M398 518c-22 6-40 21-52 43 22 5 44 2 62-9 16-10 26-24 31-43-14 1-28 4-41 9z" fill="none" stroke="url(#gold)" stroke-width="8"/>
+    <path d="M630 518c22 6 40 21 52 43-22 5-44 2-62-9-16-10-26-24-31-43 14 1 28 4 41 9z" fill="none" stroke="url(#gold)" stroke-width="8"/>
+
+    <!-- Ornamental engraved curls -->
+    <path d="M458 613c-39-21-42-66-8-82 24-11 48 7 39 31-6 17-26 19-36 8" fill="none" stroke="#8f8b82" stroke-width="5" stroke-linecap="round" opacity="0.58"/>
+    <path d="M570 613c39-21 42-66 8-82-24-11-48 7-39 31 6 17 26 19 36 8" fill="none" stroke="#8f8b82" stroke-width="5" stroke-linecap="round" opacity="0.58"/>
+    <path d="M404 724c64 24 156 24 220 0" fill="none" stroke="#817d75" stroke-width="5" stroke-linecap="round" opacity="0.42"/>
+    <path d="M348 806c95 21 237 21 332 0" fill="none" stroke="#817d75" stroke-width="5" stroke-linecap="round" opacity="0.42"/>
+
+    <!-- Marble veins clipped inside shape -->
+    <g clip-path="url(#queenClip)" opacity="0.72">
+      <path d="M301 163c49 40 92 47 126 77 43 39 29 83 83 116 44 27 99 24 144 74 29 32 37 73 71 100" fill="none" stroke="#a9a6a0" stroke-width="5" stroke-linecap="round" opacity="0.42"/>
+      <path d="M669 98c-21 58-67 89-77 139-9 45 26 79 13 124-13 48-69 67-80 118" fill="none" stroke="#b8b4ad" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+      <path d="M363 331c40 28 85 39 109 75 19 30 10 68 35 97 31 36 90 35 126 78" fill="none" stroke="#8f8b84" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+      <path d="M293 886c88-42 137-12 214-39 63-22 83-77 166-78 40 0 70 10 98 23" fill="none" stroke="#aaa69d" stroke-width="4" stroke-linecap="round" opacity="0.38"/>
+      <path d="M446 154c17 29 30 57 69 72 32 12 65 2 91 25" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.32"/>
+      <path d="M330 785c46 11 89 3 132 13 34 8 56 29 99 28 38-1 70-18 115-7" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+    </g>
+
+    <!-- Highlight glazes -->
+    <ellipse cx="455" cy="349" rx="120" ry="245" fill="url(#pearlGlow)" opacity="0.58"/>
+    <path d="M357 870c89 26 231 26 320 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.52"/>
+    <path d="M419 682c56 18 134 18 190 0" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.42"/>
+
+    <!-- Outer crisp gold accents -->
+    <path d="M514 70c19 0 35 16 35 35 0 12-6 23-16 29l34 94 77-120c-7-6-12-15-12-25 0-18 15-33 33-33s33 15 33 33-15 33-33 33c-3 0-6 0-9-1l-28 170 104-114c-3-5-5-11-5-18 0-18 15-33 33-33s33 15 33 33-15 33-33 33c-4 0-8-1-12-2l-76 188c31 33 50 79 50 129 0 69-38 123-82 150 14 23 24 50 29 80h37c31 0 57 25 57 57 0 22-12 41-30 51 34 10 58 38 58 72 0 42-36 76-81 76H313c-45 0-81-34-81-76 0-34 24-62 58-72-18-10-30-29-30-51 0-32 26-57 57-57h38c5-31 15-57 29-80-45-28-82-82-82-150 0-50 19-96 50-129l-76-188c-4 1-8 2-12 2-18 0-33-15-33-33s15-33 33-33 33 15 33 33c0 7-2 13-5 18l104 114-28-170c-3 1-6 1-9 1-18 0-33-15-33-33s15-33 33-33 33 15 33 33c0 10-5 19-12 25l77 120 34-94c-10-6-16-17-16-29 0-19 16-35 36-35z" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linejoin="round" opacity="0.86"/>
+  </g>
+</svg>

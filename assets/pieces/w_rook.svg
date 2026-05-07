@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Ornate White Marble and Gold Rook Chess Piece</title>
+  <desc id="desc">A luxury 2D vector SVG rook chess piece carved from white polished marble with gray veining, metallic gold trim, crenellated castle top, ornamental engravings, and transparent background.</desc>
+  <defs>
+    <linearGradient id="marbleWhite" x1="210" y1="80" x2="820" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.16" stop-color="#f5f5f2"/>
+      <stop offset="0.36" stop-color="#dcdedc"/>
+      <stop offset="0.54" stop-color="#ffffff"/>
+      <stop offset="0.76" stop-color="#c9cccb"/>
+      <stop offset="1" stop-color="#f7f6f1"/>
+    </linearGradient>
+
+    <linearGradient id="marbleShadow" x1="218" y1="170" x2="750" y2="930" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="0.45" stop-color="#babfbe"/>
+      <stop offset="1" stop-color="#eef0ef"/>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="190" y1="70" x2="835" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff2a6"/>
+      <stop offset="0.18" stop-color="#d6a631"/>
+      <stop offset="0.38" stop-color="#fff6bd"/>
+      <stop offset="0.58" stop-color="#b77a12"/>
+      <stop offset="0.78" stop-color="#f7d56a"/>
+      <stop offset="1" stop-color="#8b5a0a"/>
+    </linearGradient>
+
+    <linearGradient id="goldDark" x1="240" y1="120" x2="760" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d89f22"/>
+      <stop offset="0.5" stop-color="#7d4b05"/>
+      <stop offset="1" stop-color="#e7bd49"/>
+    </linearGradient>
+
+    <linearGradient id="highlight" x1="342" y1="110" x2="468" y2="880" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.88"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+
+    <clipPath id="rookClip">
+      <path d="M330 138 H418 V207 H463 V138 H562 V207 H607 V138 H694 V320 C694 346 672 365 648 365 H632 V458 C632 497 608 526 584 544 C604 592 623 660 632 731 H705 C730 731 750 751 750 776 V834 H790 C815 834 838 858 838 886 V924 H186 V886 C186 858 209 834 234 834 H274 V776 C274 751 294 731 319 731 H392 C401 660 420 592 440 544 C416 526 392 497 392 458 V365 H376 C352 365 330 346 330 320 Z"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- main gold outline behind entire rook -->
+    <path d="M316 122 H432 V191 H449 V122 H576 V191 H593 V122 H708 V324 C708 359 680 385 649 385 H648 V455 C648 497 626 532 601 555 C618 600 637 660 647 716 H707 C742 716 767 743 767 776 V819 H794 C829 819 856 850 856 886 V942 H168 V886 C168 850 195 819 230 819 H257 V776 C257 743 282 716 317 716 H377 C387 660 406 600 423 555 C398 532 376 497 376 455 V385 H375 C344 385 316 359 316 324 Z" fill="url(#goldDark)"/>
+
+    <!-- rook body -->
+    <path d="M330 138 H418 V207 H463 V138 H562 V207 H607 V138 H694 V320 C694 346 672 365 648 365 H632 V458 C632 497 608 526 584 544 C604 592 623 660 632 731 H705 C730 731 750 751 750 776 V834 H790 C815 834 838 858 838 886 V924 H186 V886 C186 858 209 834 234 834 H274 V776 C274 751 294 731 319 731 H392 C401 660 420 592 440 544 C416 526 392 497 392 458 V365 H376 C352 365 330 346 330 320 Z" fill="url(#marbleWhite)"/>
+
+    <!-- subtle side shading -->
+    <path d="M609 139 H694 V320 C694 346 672 365 648 365 H632 V458 C632 497 608 526 584 544 C604 592 623 660 632 731 H705 C730 731 750 751 750 776 V834 H790 C815 834 838 858 838 886 V924 H632 C663 864 671 790 653 711 C641 657 620 596 598 548 C624 515 639 482 638 438 L636 347 C661 343 676 324 676 300 V158 H609 Z" fill="url(#marbleShadow)" opacity="0.38"/>
+
+    <!-- top gold trims and crenellation details -->
+    <path d="M331 132 H419 V150 H331 Z M462 132 H563 V150 H462 Z M606 132 H694 V150 H606 Z" fill="url(#gold)"/>
+    <path d="M330 303 H694 V326 C694 344 676 358 655 358 H369 C348 358 330 344 330 326 Z" fill="url(#gold)"/>
+    <path d="M360 266 H664 V292 H360 Z" fill="url(#goldDark)" opacity="0.95"/>
+    <path d="M379 267 C421 284 469 291 512 291 C555 291 603 284 645 267" fill="none" stroke="#fff4a8" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+
+    <!-- central tower shaft gold edge bands -->
+    <path d="M392 365 H632 V392 H392 Z" fill="url(#gold)"/>
+    <path d="M395 445 H629 V470 C626 505 608 527 584 544 H440 C416 527 398 505 395 470 Z" fill="url(#goldDark)" opacity="0.85"/>
+    <path d="M421 548 C477 570 547 570 603 548 C619 592 634 663 642 731 H382 C390 663 405 592 421 548 Z" fill="url(#marbleWhite)"/>
+
+    <!-- collar and base bands -->
+    <path d="M356 712 H668 C690 712 707 729 707 751 V773 H317 V751 C317 729 334 712 356 712 Z" fill="url(#gold)"/>
+    <path d="M274 778 H750 V838 H274 Z" fill="url(#marbleWhite)"/>
+    <path d="M274 779 H750 V803 H274 Z" fill="url(#goldDark)"/>
+    <path d="M234 834 H790 C815 834 838 858 838 886 V924 H186 V886 C186 858 209 834 234 834 Z" fill="url(#marbleWhite)"/>
+    <path d="M199 864 H825 V896 H199 Z" fill="url(#gold)"/>
+    <path d="M188 914 H836 V924 H188 Z" fill="url(#goldDark)"/>
+
+    <!-- ornate central carving panels -->
+    <path d="M451 392 C436 428 437 490 455 524 C475 552 549 552 569 524 C587 490 588 428 573 392 Z" fill="none" stroke="url(#gold)" stroke-width="10"/>
+    <path d="M512 399 C488 435 487 499 512 532 C537 499 536 435 512 399 Z" fill="none" stroke="#c8a13c" stroke-width="5" opacity="0.78"/>
+    <circle cx="512" cy="463" r="18" fill="url(#gold)"/>
+    <path d="M477 466 C492 483 532 483 547 466" fill="none" stroke="#8a620f" stroke-width="5" stroke-linecap="round" opacity="0.72"/>
+
+    <!-- decorative rook stone blocks -->
+    <path d="M371 170 H415 V232 H371 Z M465 170 H559 V232 H465 Z M609 170 H653 V232 H609 Z" fill="#ffffff" opacity="0.24"/>
+    <path d="M365 233 H659" stroke="#9da2a2" stroke-width="4" opacity="0.42"/>
+    <path d="M421 172 V252 M604 172 V252" stroke="#8c9292" stroke-width="4" opacity="0.32"/>
+
+    <!-- engraved base ornaments -->
+    <path d="M324 814 C378 790 437 790 486 814 C502 822 522 822 538 814 C587 790 646 790 700 814" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" opacity="0.88"/>
+    <path d="M284 874 C338 846 403 846 457 874 C490 891 534 891 567 874 C621 846 686 846 740 874" fill="none" stroke="#d6a631" stroke-width="6" stroke-linecap="round" opacity="0.82"/>
+    <circle cx="362" cy="813" r="8" fill="url(#gold)"/>
+    <circle cx="512" cy="824" r="9" fill="url(#gold)"/>
+    <circle cx="662" cy="813" r="8" fill="url(#gold)"/>
+
+    <!-- marble veins clipped to rook -->
+    <g clip-path="url(#rookClip)" opacity="0.52">
+      <path d="M241 242 C331 222 359 281 433 260 C522 235 562 166 684 198" fill="none" stroke="#8b9090" stroke-width="4" stroke-linecap="round" opacity="0.34"/>
+      <path d="M300 426 C381 398 421 437 476 414 C535 389 571 354 639 374" fill="none" stroke="#a1a5a4" stroke-width="3" stroke-linecap="round" opacity="0.36"/>
+      <path d="M362 592 C426 554 492 620 556 581 C604 552 646 556 694 592" fill="none" stroke="#7f8585" stroke-width="4" stroke-linecap="round" opacity="0.27"/>
+      <path d="M215 769 C302 739 361 789 438 755 C525 717 591 730 724 702" fill="none" stroke="#919797" stroke-width="5" stroke-linecap="round" opacity="0.28"/>
+      <path d="M222 888 C322 856 377 915 482 882 C577 852 649 858 809 879" fill="none" stroke="#777d7d" stroke-width="4" stroke-linecap="round" opacity="0.30"/>
+      <path d="M457 137 C433 240 480 318 451 410 C420 509 445 619 389 738" fill="none" stroke="#b2b7b6" stroke-width="3" opacity="0.28"/>
+      <path d="M597 132 C576 231 627 300 603 405 C580 506 626 617 599 732" fill="none" stroke="#747a7a" stroke-width="3" opacity="0.22"/>
+      <path d="M519 210 C540 258 512 297 535 343 C555 385 546 436 571 482" fill="none" stroke="#6f7777" stroke-width="2" opacity="0.25"/>
+    </g>
+
+    <!-- polished highlights -->
+    <path d="M385 154 C365 298 382 506 423 649 C443 715 431 810 383 907 L299 907 C344 818 354 722 334 645 C306 533 301 389 324 261 C333 211 352 174 385 154 Z" fill="url(#highlight)" opacity="0.72"/>
+    <path d="M476 168 H538 C529 219 526 267 532 318 H481 C487 268 485 219 476 168 Z" fill="#ffffff" opacity="0.20"/>
+    <path d="M435 586 C471 603 553 603 589 586" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.30"/>
+    <path d="M301 842 C400 866 619 866 724 842" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.24"/>
+
+    <!-- crisp exterior gold accent strokes -->
+    <path d="M330 138 H418 V207 H463 V138 H562 V207 H607 V138 H694 V320 C694 346 672 365 648 365 H632 V458 C632 497 608 526 584 544 C604 592 623 660 632 731 H705 C730 731 750 751 750 776 V834 H790 C815 834 838 858 838 886 V924 H186 V886 C186 858 209 834 234 834 H274 V776 C274 751 294 731 319 731 H392 C401 660 420 592 440 544 C416 526 392 497 392 458 V365 H376 C352 365 330 346 330 320 Z" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M349 152 H405 V219 H476 V152 H549 V219 H620 V152 H675" fill="none" stroke="#fff1a1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.68"/>
+  </g>
+</svg>
