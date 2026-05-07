@@ -18,6 +18,10 @@ A native desktop chess app written in Rust. Two players, one keyboard, full stan
 
 ## Build & run
 
+Install Rust:
+
+https://rustup.rs/
+
 Requirements: a recent stable Rust toolchain (1.75+ recommended).
 
 ```bash
